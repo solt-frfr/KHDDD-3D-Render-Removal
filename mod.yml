@@ -1,0 +1,421 @@
+title: 3D Render Removal
+originalAuthor: Solt11
+description: Replaces the 3D renders of the Dream Eaters with my own art, and the renders of Sora and Riku in the save menu with shots from "Gateway to Dreams".
+dependencies: 
+assets:
+- name: remastered/menu/en/camp/de/d_kaogura/bin/de_kao0_n.l2d/JP_de_kao0.png
+  method: copy
+  source:
+  - name: remastered/menu/en/camp/de/d_kaogura/bin/de_kao0_n.l2d/JP_de_kao0.png
+- name: remastered/menu/en/camp/de/d_kaogura/bin/de_kao0_n.l2d/US_de_kao0.png
+  method: copy
+  source:
+  - name: remastered/menu/en/camp/de/d_kaogura/bin/de_kao0_n.l2d/US_de_kao0.png
+- name: remastered/menu/en/camp/de/d_kaogura/bin/de_kao0_n.l2d/JP_de_kao1.png
+  method: copy
+  source:
+  - name: remastered/menu/en/camp/de/d_kaogura/bin/de_kao0_n.l2d/JP_de_kao1.png
+- name: remastered/menu/en/camp/de/d_kaogura/bin/de_kao0_n.l2d/US_de_kao1.png
+  method: copy
+  source:
+  - name: remastered/menu/en/camp/de/d_kaogura/bin/de_kao0_n.l2d/US_de_kao1.png
+- name: remastered/menu/en/camp/save/bin/save00_n.l2d/FR_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/camp/save/bin/save00_n.l2d/FR_save00.dds
+- name: remastered/menu/en/camp/save/bin/save00_n.l2d/GR_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/camp/save/bin/save00_n.l2d/GR_save00.dds
+- name: remastered/menu/en/camp/save/bin/save00_n.l2d/IT_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/camp/save/bin/save00_n.l2d/IT_save00.dds
+- name: remastered/menu/en/camp/save/bin/save00_n.l2d/JP_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/camp/save/bin/save00_n.l2d/JP_save00.dds
+- name: remastered/menu/en/camp/save/bin/save00_n.l2d/SP_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/camp/save/bin/save00_n.l2d/SP_save00.dds
+- name: remastered/menu/en/camp/save/bin/save00_n.l2d/US_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/camp/save/bin/save00_n.l2d/US_save00.dds
+- name: remastered/menu/en/ckpt/kao/de010/bin/de010.ctt/JP_de010.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de010/bin/de010.ctt/JP_de010.dds
+- name: remastered/menu/en/ckpt/kao/de010/bin/de010.ctt/US_de010.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de010/bin/de010.ctt/US_de010.dds
+- name: remastered/menu/en/ckpt/kao/de020/bin/de020.ctt/JP_de020.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de020/bin/de020.ctt/JP_de020.dds
+- name: remastered/menu/en/ckpt/kao/de020/bin/de020.ctt/US_de020.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de020/bin/de020.ctt/US_de020.dds
+- name: remastered/menu/en/ckpt/kao/de030/bin/de030.ctt/JP_de030.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de030/bin/de030.ctt/JP_de030.dds
+- name: remastered/menu/en/ckpt/kao/de030/bin/de030.ctt/US_de030.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de030/bin/de030.ctt/US_de030.dds
+- name: remastered/menu/en/ckpt/kao/de040/bin/de040.ctt/JP_de040.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de040/bin/de040.ctt/JP_de040.dds
+- name: remastered/menu/en/ckpt/kao/de040/bin/de040.ctt/US_de040.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de040/bin/de040.ctt/US_de040.dds
+- name: remastered/menu/en/ckpt/kao/de050/bin/de050.ctt/JP_de050.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de050/bin/de050.ctt/JP_de050.dds
+- name: remastered/menu/en/ckpt/kao/de050/bin/de050.ctt/US_de050.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de050/bin/de050.ctt/US_de050.dds
+- name: remastered/menu/en/ckpt/kao/de060/bin/de060.ctt/JP_de060.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de060/bin/de060.ctt/JP_de060.dds
+- name: remastered/menu/en/ckpt/kao/de060/bin/de060.ctt/US_de060.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de060/bin/de060.ctt/US_de060.dds
+- name: remastered/menu/en/ckpt/kao/de070/bin/de070.ctt/JP_de070.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de070/bin/de070.ctt/JP_de070.dds
+- name: remastered/menu/en/ckpt/kao/de070/bin/de070.ctt/US_de070.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de070/bin/de070.ctt/US_de070.dds
+- name: remastered/menu/en/ckpt/kao/de080/bin/de080.ctt/JP_de080.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de080/bin/de080.ctt/JP_de080.dds
+- name: remastered/menu/en/ckpt/kao/de080/bin/de080.ctt/US_de080.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de080/bin/de080.ctt/US_de080.dds
+- name: remastered/menu/en/ckpt/kao/de090/bin/de090.ctt/JP_de090.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de090/bin/de090.ctt/JP_de090.dds
+- name: remastered/menu/en/ckpt/kao/de090/bin/de090.ctt/US_de090.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de090/bin/de090.ctt/US_de090.dds
+- name: remastered/menu/en/ckpt/kao/de100/bin/de100.ctt/JP_de100.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de100/bin/de100.ctt/JP_de100.dds
+- name: remastered/menu/en/ckpt/kao/de100/bin/de100.ctt/US_de100.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de100/bin/de100.ctt/US_de100.dds
+- name: remastered/menu/en/ckpt/kao/de110/bin/de110.ctt/JP_de110.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de110/bin/de110.ctt/JP_de110.dds
+- name: remastered/menu/en/ckpt/kao/de110/bin/de110.ctt/US_de110.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de110/bin/de110.ctt/US_de110.dds
+- name: remastered/menu/en/ckpt/kao/de130/bin/de130.ctt/JP_de130.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de130/bin/de130.ctt/JP_de130.dds
+- name: remastered/menu/en/ckpt/kao/de130/bin/de130.ctt/US_de130.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de130/bin/de130.ctt/US_de130.dds
+- name: remastered/menu/en/ckpt/kao/de140/bin/de140.ctt/JP_de140.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de140/bin/de140.ctt/JP_de140.dds
+- name: remastered/menu/en/ckpt/kao/de140/bin/de140.ctt/US_de140.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de140/bin/de140.ctt/US_de140.dds
+- name: remastered/menu/en/ckpt/kao/de160/bin/de160.ctt/JP_de160.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de160/bin/de160.ctt/JP_de160.dds
+- name: remastered/menu/en/ckpt/kao/de160/bin/de160.ctt/US_de160.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de160/bin/de160.ctt/US_de160.dds
+- name: remastered/menu/en/ckpt/kao/de200/bin/de200.ctt/JP_de200.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de200/bin/de200.ctt/JP_de200.dds
+- name: remastered/menu/en/ckpt/kao/de200/bin/de200.ctt/US_de200.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de200/bin/de200.ctt/US_de200.dds
+- name: remastered/menu/en/ckpt/kao/de210/bin/de210.ctt/JP_de210.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de210/bin/de210.ctt/JP_de210.dds
+- name: remastered/menu/en/ckpt/kao/de210/bin/de210.ctt/US_de210.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de210/bin/de210.ctt/US_de210.dds
+- name: remastered/menu/en/ckpt/kao/de220/bin/de220.ctt/JP_de220.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de220/bin/de220.ctt/JP_de220.dds
+- name: remastered/menu/en/ckpt/kao/de220/bin/de220.ctt/US_de220.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de220/bin/de220.ctt/US_de220.dds
+- name: remastered/menu/en/ckpt/kao/de230/bin/de230.ctt/JP_de230.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de230/bin/de230.ctt/JP_de230.dds
+- name: remastered/menu/en/ckpt/kao/de230/bin/de230.ctt/US_de230.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de230/bin/de230.ctt/US_de230.dds
+- name: remastered/menu/en/ckpt/kao/de240/bin/de240.ctt/JP_de240.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de240/bin/de240.ctt/JP_de240.dds
+- name: remastered/menu/en/ckpt/kao/de240/bin/de240.ctt/US_de240.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de240/bin/de240.ctt/US_de240.dds
+- name: remastered/menu/en/ckpt/kao/de250/bin/de250.ctt/JP_de250.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de250/bin/de250.ctt/JP_de250.dds
+- name: remastered/menu/en/ckpt/kao/de250/bin/de250.ctt/US_de250.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de250/bin/de250.ctt/US_de250.dds
+- name: remastered/menu/en/ckpt/kao/de260/bin/de260.ctt/JP_de260.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de260/bin/de260.ctt/JP_de260.dds
+- name: remastered/menu/en/ckpt/kao/de260/bin/de260.ctt/US_de260.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de260/bin/de260.ctt/US_de260.dds
+- name: remastered/menu/en/ckpt/kao/de290/bin/de290.ctt/JP_de290.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de290/bin/de290.ctt/JP_de290.dds
+- name: remastered/menu/en/ckpt/kao/de290/bin/de290.ctt/US_de290.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de290/bin/de290.ctt/US_de290.dds
+- name: remastered/menu/en/ckpt/kao/de300/bin/de300.ctt/JP_de300.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de300/bin/de300.ctt/JP_de300.dds
+- name: remastered/menu/en/ckpt/kao/de300/bin/de300.ctt/US_de300.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de300/bin/de300.ctt/US_de300.dds
+- name: remastered/menu/en/ckpt/kao/de310/bin/de310.ctt/JP_de310.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de310/bin/de310.ctt/JP_de310.dds
+- name: remastered/menu/en/ckpt/kao/de310/bin/de310.ctt/US_de310.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de310/bin/de310.ctt/US_de310.dds
+- name: remastered/menu/en/ckpt/kao/de340/bin/de340.ctt/JP_de340.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de340/bin/de340.ctt/JP_de340.dds
+- name: remastered/menu/en/ckpt/kao/de340/bin/de340.ctt/US_de340.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de340/bin/de340.ctt/US_de340.dds
+- name: remastered/menu/en/ckpt/kao/de380/bin/de380.ctt/JP_de380.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de380/bin/de380.ctt/JP_de380.dds
+- name: remastered/menu/en/ckpt/kao/de380/bin/de380.ctt/US_de380.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de380/bin/de380.ctt/US_de380.dds
+- name: remastered/menu/en/ckpt/kao/de390/bin/de390.ctt/JP_de390.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de390/bin/de390.ctt/JP_de390.dds
+- name: remastered/menu/en/ckpt/kao/de390/bin/de390.ctt/US_de390.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de390/bin/de390.ctt/US_de390.dds
+- name: remastered/menu/en/ckpt/kao/de400/bin/de400.ctt/JP_de400.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de400/bin/de400.ctt/JP_de400.dds
+- name: remastered/menu/en/ckpt/kao/de400/bin/de400.ctt/US_de400.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de400/bin/de400.ctt/US_de400.dds
+- name: remastered/menu/en/ckpt/kao/de410/bin/de410.ctt/JP_de410.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de410/bin/de410.ctt/JP_de410.dds
+- name: remastered/menu/en/ckpt/kao/de410/bin/de410.ctt/US_de410.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de410/bin/de410.ctt/US_de410.dds
+- name: remastered/menu/en/ckpt/kao/de430/bin/de430.ctt/JP_de430.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de430/bin/de430.ctt/JP_de430.dds
+- name: remastered/menu/en/ckpt/kao/de430/bin/de430.ctt/US_de430.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de430/bin/de430.ctt/US_de430.dds
+- name: remastered/menu/en/ckpt/kao/de450/bin/de450.ctt/JP_de450.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de450/bin/de450.ctt/JP_de450.dds
+- name: remastered/menu/en/ckpt/kao/de450/bin/de450.ctt/US_de450.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de450/bin/de450.ctt/US_de450.dds
+- name: remastered/menu/en/ckpt/kao/de480/bin/de480.ctt/JP_de480.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de480/bin/de480.ctt/JP_de480.dds
+- name: remastered/menu/en/ckpt/kao/de480/bin/de480.ctt/US_de480.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de480/bin/de480.ctt/US_de480.dds
+- name: remastered/menu/en/ckpt/kao/de490/bin/de490.ctt/JP_de490.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de490/bin/de490.ctt/JP_de490.dds
+- name: remastered/menu/en/ckpt/kao/de490/bin/de490.ctt/US_de490.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de490/bin/de490.ctt/US_de490.dds
+- name: remastered/menu/en/ckpt/kao/de500/bin/de500.ctt/JP_de500.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de500/bin/de500.ctt/JP_de500.dds
+- name: remastered/menu/en/ckpt/kao/de500/bin/de500.ctt/US_de500.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de500/bin/de500.ctt/US_de500.dds
+- name: remastered/menu/en/ckpt/kao/de510/bin/de510.ctt/JP_de510.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de510/bin/de510.ctt/JP_de510.dds
+- name: remastered/menu/en/ckpt/kao/de510/bin/de510.ctt/US_de510.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de510/bin/de510.ctt/US_de510.dds
+- name: remastered/menu/en/ckpt/kao/de520/bin/de520.ctt/JP_de520.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de520/bin/de520.ctt/JP_de520.dds
+- name: remastered/menu/en/ckpt/kao/de520/bin/de520.ctt/US_de520.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de520/bin/de520.ctt/US_de520.dds
+- name: remastered/menu/en/ckpt/kao/de530/bin/de530.ctt/JP_de530.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de530/bin/de530.ctt/JP_de530.dds
+- name: remastered/menu/en/ckpt/kao/de530/bin/de530.ctt/US_de530.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de530/bin/de530.ctt/US_de530.dds
+- name: remastered/menu/en/ckpt/kao/de540/bin/de540.ctt/JP_de540.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de540/bin/de540.ctt/JP_de540.dds
+- name: remastered/menu/en/ckpt/kao/de540/bin/de540.ctt/US_de540.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de540/bin/de540.ctt/US_de540.dds
+- name: remastered/menu/en/ckpt/kao/de550/bin/de550.ctt/JP_de550.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de550/bin/de550.ctt/JP_de550.dds
+- name: remastered/menu/en/ckpt/kao/de550/bin/de550.ctt/US_de550.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de550/bin/de550.ctt/US_de550.dds
+- name: remastered/menu/en/ckpt/kao/de560/bin/de560.ctt/JP_de560.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de560/bin/de560.ctt/JP_de560.dds
+- name: remastered/menu/en/ckpt/kao/de560/bin/de560.ctt/US_de560.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de560/bin/de560.ctt/US_de560.dds
+- name: remastered/menu/en/ckpt/kao/de580/bin/de580.ctt/JP_de580.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de580/bin/de580.ctt/JP_de580.dds
+- name: remastered/menu/en/ckpt/kao/de580/bin/de580.ctt/US_de580.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de580/bin/de580.ctt/US_de580.dds
+- name: remastered/menu/en/ckpt/kao/de590/bin/de590.ctt/JP_de590.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de590/bin/de590.ctt/JP_de590.dds
+- name: remastered/menu/en/ckpt/kao/de590/bin/de590.ctt/US_de590.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de590/bin/de590.ctt/US_de590.dds
+- name: remastered/menu/en/ckpt/kao/de620/bin/de620.ctt/JP_de620.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de620/bin/de620.ctt/JP_de620.dds
+- name: remastered/menu/en/ckpt/kao/de620/bin/de620.ctt/US_de620.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de620/bin/de620.ctt/US_de620.dds
+- name: remastered/menu/en/ckpt/kao/de640/bin/de640.ctt/JP_de640.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de640/bin/de640.ctt/JP_de640.dds
+- name: remastered/menu/en/ckpt/kao/de640/bin/de640.ctt/US_de640.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de640/bin/de640.ctt/US_de640.dds
+- name: remastered/menu/en/ckpt/kao/de650/bin/de650.ctt/JP_de650.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de650/bin/de650.ctt/JP_de650.dds
+- name: remastered/menu/en/ckpt/kao/de650/bin/de650.ctt/US_de650.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de650/bin/de650.ctt/US_de650.dds
+- name: remastered/menu/en/ckpt/kao/de700/bin/de700.ctt/JP_de700.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de700/bin/de700.ctt/JP_de700.dds
+- name: remastered/menu/en/ckpt/kao/de700/bin/de700.ctt/US_de700.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de700/bin/de700.ctt/US_de700.dds
+- name: remastered/menu/en/ckpt/kao/de710/bin/de710.ctt/JP_de710.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de710/bin/de710.ctt/JP_de710.dds
+- name: remastered/menu/en/ckpt/kao/de710/bin/de710.ctt/US_de710.dds
+  method: copy
+  source:
+  - name: remastered/menu/en/ckpt/kao/de710/bin/de710.ctt/US_de710.dds
