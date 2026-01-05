@@ -19,6 +19,33 @@ assets:
   method: copy
   source:
   - name: remastered/menu/en/camp/de/d_kaogura/bin/de_kao0_n.l2d/US_de_kao1.png
+
+
+- name: remastered/menu/de/camp/save/bin/save00_n.l2d/FR_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/de/camp/save/bin/save00_n.l2d/FR_save00.dds
+- name: remastered/menu/de/camp/save/bin/save00_n.l2d/GR_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/de/camp/save/bin/save00_n.l2d/GR_save00.dds
+- name: remastered/menu/de/camp/save/bin/save00_n.l2d/IT_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/de/camp/save/bin/save00_n.l2d/IT_save00.dds
+- name: remastered/menu/de/camp/save/bin/save00_n.l2d/JP_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/de/camp/save/bin/save00_n.l2d/JP_save00.dds
+- name: remastered/menu/de/camp/save/bin/save00_n.l2d/SP_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/de/camp/save/bin/save00_n.l2d/SP_save00.dds
+- name: remastered/menu/de/camp/save/bin/save00_n.l2d/US_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/de/camp/save/bin/save00_n.l2d/US_save00.dds
+
 - name: remastered/menu/en/camp/save/bin/save00_n.l2d/FR_save00.dds
   method: copy
   source:
@@ -43,6 +70,108 @@ assets:
   method: copy
   source:
   - name: remastered/menu/en/camp/save/bin/save00_n.l2d/US_save00.dds
+
+- name: remastered/menu/es/camp/save/bin/save00_n.l2d/FR_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/es/camp/save/bin/save00_n.l2d/FR_save00.dds
+- name: remastered/menu/es/camp/save/bin/save00_n.l2d/GR_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/es/camp/save/bin/save00_n.l2d/GR_save00.dds
+- name: remastered/menu/es/camp/save/bin/save00_n.l2d/IT_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/es/camp/save/bin/save00_n.l2d/IT_save00.dds
+- name: remastered/menu/es/camp/save/bin/save00_n.l2d/JP_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/es/camp/save/bin/save00_n.l2d/JP_save00.dds
+- name: remastered/menu/es/camp/save/bin/save00_n.l2d/SP_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/es/camp/save/bin/save00_n.l2d/SP_save00.dds
+- name: remastered/menu/es/camp/save/bin/save00_n.l2d/US_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/es/camp/save/bin/save00_n.l2d/US_save00.dds
+
+- name: remastered/menu/fr/camp/save/bin/save00_n.l2d/FR_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/fr/camp/save/bin/save00_n.l2d/FR_save00.dds
+- name: remastered/menu/fr/camp/save/bin/save00_n.l2d/GR_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/fr/camp/save/bin/save00_n.l2d/GR_save00.dds
+- name: remastered/menu/fr/camp/save/bin/save00_n.l2d/IT_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/fr/camp/save/bin/save00_n.l2d/IT_save00.dds
+- name: remastered/menu/fr/camp/save/bin/save00_n.l2d/JP_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/fr/camp/save/bin/save00_n.l2d/JP_save00.dds
+- name: remastered/menu/fr/camp/save/bin/save00_n.l2d/SP_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/fr/camp/save/bin/save00_n.l2d/SP_save00.dds
+- name: remastered/menu/fr/camp/save/bin/save00_n.l2d/US_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/fr/camp/save/bin/save00_n.l2d/US_save00.dds
+
+- name: remastered/menu/it/camp/save/bin/save00_n.l2d/FR_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/it/camp/save/bin/save00_n.l2d/FR_save00.dds
+- name: remastered/menu/it/camp/save/bin/save00_n.l2d/GR_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/it/camp/save/bin/save00_n.l2d/GR_save00.dds
+- name: remastered/menu/it/camp/save/bin/save00_n.l2d/IT_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/it/camp/save/bin/save00_n.l2d/IT_save00.dds
+- name: remastered/menu/it/camp/save/bin/save00_n.l2d/JP_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/it/camp/save/bin/save00_n.l2d/JP_save00.dds
+- name: remastered/menu/it/camp/save/bin/save00_n.l2d/SP_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/it/camp/save/bin/save00_n.l2d/SP_save00.dds
+- name: remastered/menu/it/camp/save/bin/save00_n.l2d/US_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/it/camp/save/bin/save00_n.l2d/US_save00.dds
+
+- name: remastered/menu/jp/camp/save/bin/save00_n.l2d/FR_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/jp/camp/save/bin/save00_n.l2d/FR_save00.dds
+- name: remastered/menu/jp/camp/save/bin/save00_n.l2d/GR_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/jp/camp/save/bin/save00_n.l2d/GR_save00.dds
+- name: remastered/menu/jp/camp/save/bin/save00_n.l2d/IT_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/jp/camp/save/bin/save00_n.l2d/IT_save00.dds
+- name: remastered/menu/jp/camp/save/bin/save00_n.l2d/JP_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/jp/camp/save/bin/save00_n.l2d/JP_save00.dds
+- name: remastered/menu/jp/camp/save/bin/save00_n.l2d/SP_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/jp/camp/save/bin/save00_n.l2d/SP_save00.dds
+- name: remastered/menu/jp/camp/save/bin/save00_n.l2d/US_save00.dds
+  method: copy
+  source:
+  - name: remastered/menu/jp/camp/save/bin/save00_n.l2d/US_save00.dds
+
+
 - name: remastered/menu/en/ckpt/kao/de010/bin/de010.ctt/JP_de010.dds
   method: copy
   source:
