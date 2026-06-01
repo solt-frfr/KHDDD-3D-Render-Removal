@@ -1,0 +1,11 @@
+{
+  "Name": "3D Render Removal",
+  "Description": "Replaces the 3D renders of the Dream Eaters with my own art, and the renders of Sora and Riku in the save menu with shots from \"Gateway to Dreams\".",
+  "Authors": "Solt11",
+  "Link": "",
+  "ID": "solt-3drenderremoval",
+  "IsChecked": false,
+  "LinkImage": null,
+  "ArchiveImage": false,
+  "Prefix": "3DS"
+}
