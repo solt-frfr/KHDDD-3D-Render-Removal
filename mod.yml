@@ -260,6 +260,14 @@ assets:
   method: copy
   source:
   - name: remastered/kao/de110.dds
+- name: remastered/menu/en/ckpt/kao/de120/bin/de120.ctt/JP_de120.dds
+  method: copy
+  source:
+  - name: remastered/kao/de120.dds
+- name: remastered/menu/en/ckpt/kao/de120/bin/de120.ctt/US_de120.dds
+  method: copy
+  source:
+  - name: remastered/kao/de120.dds
 - name: remastered/menu/en/ckpt/kao/de130/bin/de130.ctt/JP_de130.dds
   method: copy
   source:
@@ -276,6 +284,14 @@ assets:
   method: copy
   source:
   - name: remastered/kao/de140.dds
+- name: remastered/menu/en/ckpt/kao/de150/bin/de150.ctt/JP_de150.dds
+  method: copy
+  source:
+  - name: remastered/kao/de150.dds
+- name: remastered/menu/en/ckpt/kao/de150/bin/de150.ctt/US_de150.dds
+  method: copy
+  source:
+  - name: remastered/kao/de150.dds
 - name: remastered/menu/en/ckpt/kao/de160/bin/de160.ctt/JP_de160.dds
   method: copy
   source:
@@ -284,6 +300,14 @@ assets:
   method: copy
   source:
   - name: remastered/kao/de160.dds
+- name: remastered/menu/en/ckpt/kao/de170/bin/de170.ctt/JP_de170.dds
+  method: copy
+  source:
+  - name: remastered/kao/de170.dds
+- name: remastered/menu/en/ckpt/kao/de170/bin/de170.ctt/US_de170.dds
+  method: copy
+  source:
+  - name: remastered/kao/de170.dds
 - name: remastered/menu/en/ckpt/kao/de200/bin/de200.ctt/JP_de200.dds
   method: copy
   source:
@@ -548,3 +572,35 @@ assets:
   method: copy
   source:
   - name: remastered/kao/de710.dds
+- name: remastered/menu/en/ckpt/kao/de720/bin/de720.ctt/JP_de720.dds
+  method: copy
+  source:
+  - name: remastered/kao/de720.dds
+- name: remastered/menu/en/ckpt/kao/de720/bin/de720.ctt/US_de720.dds
+  method: copy
+  source:
+  - name: remastered/kao/de720.dds
+- name: remastered/menu/en/ckpt/kao/de730/bin/de730.ctt/JP_de730.dds
+  method: copy
+  source:
+  - name: remastered/kao/de730.dds
+- name: remastered/menu/en/ckpt/kao/de730/bin/de730.ctt/US_de730.dds
+  method: copy
+  source:
+  - name: remastered/kao/de730.dds
+- name: remastered/menu/en/ckpt/kao/de740/bin/de740.ctt/JP_de740.dds
+  method: copy
+  source:
+  - name: remastered/kao/de740.dds
+- name: remastered/menu/en/ckpt/kao/de740/bin/de740.ctt/US_de740.dds
+  method: copy
+  source:
+  - name: remastered/kao/de740.dds
+- name: remastered/menu/en/ckpt/kao/de750/bin/de750.ctt/JP_de750.dds
+  method: copy
+  source:
+  - name: remastered/kao/de750.dds
+- name: remastered/menu/en/ckpt/kao/de750/bin/de750.ctt/US_de750.dds
+  method: copy
+  source:
+  - name: remastered/kao/de750.dds
